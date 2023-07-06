@@ -56,3 +56,34 @@ cursor: pointer;
 .bts:hover{
     color:blue;
 }
+.us{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    padding: 10px;
+}
+.change{
+    width: 400px;
+}
+.vir{font-size: 55px;
+
+font-weight: bolder; padding-bottom: 20px;
+
+}
+.pi{
+    font-size: 32px;
+}
+.but{ padding: 10px 20px;
+    background-color: blue;
+border: none;  
+border-radius: 10px; 
+cursor: pointer;
+}
+.but:hover{color: cyan;}
