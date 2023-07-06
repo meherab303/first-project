@@ -1,0 +1,58 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.menu-container{
+    background-color: rgb(56, 3, 3);
+padding: 20px;
+display:flex;
+list-style-type: none;
+color: white;
+justify-content: space-around;
+align-items: center;
+cursor: pointer;
+}
+.logo{
+    width: 90px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding: 7px;
+    font-size:large;
+} 
+.item:hover{ color: aqua;}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 100vh;
+    align-items: center;
+    background-image: url(https://www.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_4326138.htm#query=plain%20white%20background&position=0&from_view=keyword&track=ais),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53))
+}
+.pic{
+    width: 200px;
+}
+.title{
+
+    font-size: 55px;
+    font-weight: bold;
+}
+.descrip{
+
+    font-size: 18px; 
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+.bts{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.bts:hover{
+    color:blue;
+}
