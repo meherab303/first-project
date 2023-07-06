@@ -87,3 +87,32 @@ border-radius: 10px;
 cursor: pointer;
 }
 .but:hover{color: cyan;}
+.box{
+    width: 230px;
+height: 230px;
+box-shadow: 4px 10px 15px gray;
+background-color: black;
+color: white;
+padding: 15px;
+text-align: center;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.web{
+    padding: 15px;
+}
+.web-det{
+    padding: 15px;
+font-size: 16px;
+}
+.service-container{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   height: 100vh;
+    padding: 20px;
+    background-image: url(https://www.freepik.com/free-photo/abstract-surface-textures-white-concrete-stone-wall_4326138.htm#query=plain%20white%20background&position=0&from_view=keyword&track=ais),linear-gradient(50deg,#2e2626,#493636);
+}
